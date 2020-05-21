@@ -66,8 +66,8 @@ def add_characters
   prince = {name:"Prince Escalus"}
   apothecary = {name: "Apothecary"}
 
-
-
+  prince.push(epic_tragedy[:additional_characters])
+  apothecary.push(epic_tragedy[:additional_characters])
 
    # After your code, the following line will return the altered hash
    epic_tragedy
